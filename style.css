@@ -7,7 +7,7 @@
     --font: 'Karla', sans-serif;
     --delay: .3s;
 }
-
+h1
 body {
     margin: 0;
     padding: 0;
@@ -25,7 +25,6 @@ body {
 }
 
 #background-video {
- background: #000;
   width: 100vw;
   height: 100vh;
   object-fit: cover;
@@ -35,7 +34,6 @@ body {
   top: 0;
   bottom: 0;
   z-index: -1;
-  filter: brightness(0.6);
 
 }
     video {
