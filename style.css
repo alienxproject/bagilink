@@ -22,7 +22,6 @@ body {
     background-size: cover;
     position: relative;
     overflow: hidden;
-    filter: brightness(0.6);
 }
 
 #background-video {
@@ -43,7 +42,7 @@ body {
     z-index: 1;
     filter: blur(10px);
 }
-
+h1
 #profilePicture, #profilePicture img {
     position: relative;
     width: 96px;
