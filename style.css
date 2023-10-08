@@ -21,21 +21,11 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    top: 0px;
-    left: 0px;
-    min-width: 100%;
-    min-height: 100vh;
-    width: auto;
-    height: auto;
-    z-index: 1;
-    filter: brightness(0.6);
-    margin: 0px;
-    padding: 0px;
-    background: rgb(0, 0, 0);
     overflow: hidden;
 }
 
 #background-video {
+ background: #000;
   width: 100vw;
   height: 100vh;
   object-fit: cover;
@@ -45,6 +35,7 @@ body {
   top: 0;
   bottom: 0;
   z-index: -1;
+  filter: brightness(0.6);
 
 }
     video {
