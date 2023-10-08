@@ -21,6 +21,16 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    background: #000;
+    top: 0px;
+    left: 0px;
+    min-width: 100%;
+    min-height: 100vh;
+    width: auto;
+    height: auto;
+    z-index: 1;
+    overflow: hidden;
+    filter: brightness(0.6);
 }
 
 #profilePicture, #profilePicture img {
@@ -103,6 +113,12 @@ body {
     -webkit-text-fill-color: rgba(255, 255, 255, 0);
 }
 
+video {
+  min-width: 100%;
+  min-height: 100vh;
+  z-index: 1;
+  filter: blur(10px);
+}
 
 /*-------------------------animations-----------------------*/
 @keyframes transitionAnimation {
