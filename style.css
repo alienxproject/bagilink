@@ -7,7 +7,7 @@
     --font: 'Karla', sans-serif;
     --delay: .3s;
 }
-h1
+
 body {
     margin: 0;
     padding: 0;
@@ -21,6 +21,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    filter: brightness(0.6);
 }
 
 #background-video {
@@ -35,8 +36,7 @@ body {
     object-fit: cover;
     z-index: -1;
     overflow: hidden;
-    filter: brightness(0.6);
-    filter: blur(10px);
+    filter: blur (10px);
 }
 
 #profilePicture, #profilePicture img {
