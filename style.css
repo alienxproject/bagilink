@@ -29,14 +29,14 @@ body {
     height: 125px;
     display: block;
     margin: 40px auto 20px;
-    border-radius: 50%;
+    border-radius: 20%;
     -webkit-tap-highlight-color: transparent;
     object-fit: cover;
 }
 
 #userName {
     color: var(--accentColor);
-    font-size: 1rem;
+    font-size: x-large;
     font-weight: bold;
     line-height: 1.25;
     display: block;
